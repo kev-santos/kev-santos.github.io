@@ -26,7 +26,7 @@ I was elated to be able to fit in six theme answers, plus a grid-spanning [revea
 <iframe style="height: 90vh; width: 100%;" src="https://crosshare.org/embed/y1TGrni7rkunbW2dKxbX/lOafNSxABAQA7zIlWTlouR84lWX2" frameborder="0" allowfullscreen="true" allowtransparency="true" allow="clipboard-write *"></iframe>
 
 ## Math-themed Crossword 3 {#mc3}
-Always fun to be able to fit ||TITS|| into a puzzle. *Difficulty: Harder than the second one. An NYT Wednesday, or even Thursday, since the theme is a bit oblique.*
+Always fun to be able to fit 56-Across into a puzzle. *Difficulty: Harder than the second one. An NYT Wednesday, or even Thursday, since the theme is a bit oblique.*
 <iframe style="height: 90vh; width: 100%;" src="https://crosshare.org/embed/Djz2WTq2l3CKkKo9OwrV/lOafNSxABAQA7zIlWTlouR84lWX2" frameborder="0" allowfullscreen="true" allowtransparency="true" allow="clipboard-write *"></iframe>
 
 ## Math-themed Crossword 4: "Orthogonality" {#mc4}
