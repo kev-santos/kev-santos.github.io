@@ -59,6 +59,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -75,23 +76,19 @@ html {
   color: #fff;
 }
 
-/* Sidebar title */
-/* I want it centered if on mobile, align right if on desktop */
 
-.sidebar-title {
-  align: right;
-}
 
-/* The following rule applies if on mobile */
-
-@media only screen and (hover: none) and (pointer: coarse){
-    .sidebar-title {
-      align: center;
-    }
-}
 
 /* About section */
 .sidebar-about h1 {
+  align: right;
+  color: #fff;
+  margin-top: 0;
+  font-family: "Abril Fatface", serif;
+  font-size: 3.25rem;
+}
+
+.sidebar-about a {
   align: right;
   color: #fff;
   margin-top: 0;
