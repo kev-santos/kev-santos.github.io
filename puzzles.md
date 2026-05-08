@@ -12,7 +12,7 @@ permalink: /puzzles
 
 ## Math Acrostic {#acrostic}
 
-[Link to play in browser](https://da.gd/l7pPq") 
+[Link to play in browser](https://da.gd/bmv7Aw) 
 
 Answer the clues to form a quote. The first letter of each answer will spell out the writer of this quote. *Difficulty: pretty tricky.*
 
