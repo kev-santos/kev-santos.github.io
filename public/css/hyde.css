@@ -75,6 +75,21 @@ html {
   color: #fff;
 }
 
+/* Sidebar title */
+/* I want it centered if on mobile, align right if on desktop */
+
+.sidebar-title {
+  align: right;
+}
+
+/* The following rule applies if on mobile */
+
+@media only screen and (hover: none) and (pointer: coarse){
+    .sidebar-title {
+      align: center;
+    }
+}
+
 /* About section */
 .sidebar-about h1 {
   align: right;
