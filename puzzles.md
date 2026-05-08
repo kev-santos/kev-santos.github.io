@@ -5,7 +5,7 @@ permalink: /puzzles
 ---
 ## Table of Contents
 - [Acrostic](#acrostic)
-- [Math-themed Crossword 1](#mc4)
+- [Math-themed Crossword 1](#mc1)
 - [Math-themed Crossword 2](#mc2)
 - [Math-themed Crossword 3](#mc3)
 - [Math-themed Crossword 4](#mc4)
