@@ -1,3 +1,6 @@
 #remote_theme: Hyde
 title: Kevin's homepage
-description: The 
+description: trying my best
+
+#render markdown in HTML
+markdown: kramdown
