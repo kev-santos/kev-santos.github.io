@@ -17,7 +17,7 @@ permalink: /puzzles
 Answer the clues to form a quote. The first letter of each answer will spell out both the writer of the quote and where the quote is from. *Difficulty: pretty tricky.*
 
 ## Math-themed Crossword 1 {#mc1}
-My first foray into crossword construction, although this is not the first version of this puzzle. *Difficulty: Probably an NYT Monday. Accessible for beginner solvers, hopefully.*
+My first foray into crossword construction, although this is not the first version of this puzzle. *Difficulty:  Accessible for beginner solvers. Probably an NYT Monday.*
 
 <iframe style="height: 90vh; width: 100%;" src="https://crosshare.org/embed/ija39mVNghEsdpoxj3Ap/lOafNSxABAQA7zIlWTlouR84lWX2" frameborder="0" allowfullscreen="true" allowtransparency="true" allow="clipboard-write *"></iframe>
 
