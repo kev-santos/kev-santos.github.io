@@ -180,11 +180,15 @@ a.sidebar-nav-item:focus {
 
 /* custom */
 .theme-base-mine .sidebar {
-  background-color: #ac4142;
+  background-color: #66cc00;
 }
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
+.theme-base-mine .content a,
+.theme-base-mine .related-posts li a:hover {
+  color: #66cc00;
+}
+
+.theme-base-mine .content a:hover {
+  #ff66ff
 }
 
 
