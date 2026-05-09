@@ -1,0 +1,30 @@
+---
+layout: page
+title: hyperblog
+permalink: /hyperblog-posts
+---
+<h2>
+  = hyperlink + blog
+</h2>
+
+I have a really bad habit of letting my browser tabs build up until I get lost in them. "But what if I need it one day? What if I forget about this cool thing I found?" 
+So I'll record the good stuff here, tagged and sorted, and now I can close my browser windows in peace, until I start piling on the tabs again, and the cycle repeats. 
+
+<ul>
+  {% for post in site.categories.hyperblog %}
+    <li>
+      <div class="post-excerpt">
+        {{ post.excerpt }}
+      </div>
+      <div class="tag-list">
+        {% for tag in post.tags %}
+        #tag 
+        {% endfor %}
+      </div>
+      <details>
+        {{ post.content }} <a href="{{ post.url }}"> (link to post) </a> 
+      </details>
+      
+    </li>
+  {% endfor %}
+</ul>
