@@ -3,4 +3,9 @@ title: Kevin's homepage
 #description: trying my best
 
 #render markdown in HTML
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+
+baseurl: /
+
+paginate: 5
