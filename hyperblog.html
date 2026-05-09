@@ -7,7 +7,9 @@ permalink: /hyperblog-posts
 <ul>
   {% for post in site.categories.hyperblog %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a> 
+      {{ post.tags }}
+      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
