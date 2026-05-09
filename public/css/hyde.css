@@ -59,7 +59,6 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
-
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -67,7 +66,7 @@ html {
     left: 0;
     bottom: 0;
     width: 18rem;
-    text-align: right;
+    text-align: left;
   }
 }
 
@@ -76,20 +75,12 @@ html {
   color: #fff;
 }
 
-
-
-
 /* About section */
 .sidebar-about h1 {
-  align: right;
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
   font-size: 3.25rem;
-}
-
-.sidebar-about img {
-  align: right;
 }
 
 /* Sidebar nav */
@@ -185,20 +176,6 @@ a.sidebar-nav-item:focus {
  */
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* custom */
-.theme-base-mine .sidebar {
-  background-color: #669933;
-}
-.theme-base-mine .content a,
-.theme-base-mine .related-posts li a:hover {
-  color: #669933;
-}
-
-.theme-base-mine .content a:hover {
-  #ff66ff
-}
-
 
 /* Red */
 .theme-base-08 .sidebar {
