@@ -13,7 +13,6 @@ body {
   font-family: Verdana;
   width: 75%;
   display: flex;
-  margin: 0;
 }
 
 a {
@@ -40,12 +39,10 @@ a.menu:visited {
 }
 
 #main {
-  padding: 24px;
-  width: 50%;
-  /*float: left;
+  float: left;
   margin-left: 150px;
   padding: 0px 10px;
-  width: 25%;*/
+  width: 50%;
 }
 
 #content {
