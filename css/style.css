@@ -12,6 +12,7 @@ body {
   color: whitesmoke;
   font-family: Verdana;
   width: 75%;
+  display: flex;
 }
 
 a {
