@@ -12,17 +12,22 @@
 
 
   <body>
-    <div id="menu">
+    <div id="main">
+
+      <div id="menu">
         <ul>
           <li><a href="https://kev-santos.github.io" class="menu">home</a>  </li>
           <li><a href="/talks" class="menu">talks</a> </li>
           <li><a href="/puzzles" class="menu">puzzles</a> </li>
         </ul>
-    </div>
+      </div>
+      
+      <div id="content">
+        {{ content }}
+      </div>
 
-    <div id="content">
-      {{ content }}
     </div>
-
+    
   </body>
+
 </html>
