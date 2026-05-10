@@ -1,13 +1,12 @@
 ---
 layout: post
-title: hello worlds
+title: atlantic
 tags:
-  - article
-  - literature
-  - programming
+  - webgame
+  - puzzles
 excerpt:
 ---
-[Hello Worlds (why humanities students should learn to program) by Matthew Kirschenbaum](https://mkirschenbaum.wordpress.com/2010/05/23/hello-worlds/)
+[Games by The Atlantic](https://www.theatlantic.com/games/): some good unique ones, e.g. Bracket City and Stacks. the crossword is also good — feels less stodgy than the NYT. the special crossword, Caleb's Inferno, is behind a paywall now, but was fun — used
 
 <details>
 
