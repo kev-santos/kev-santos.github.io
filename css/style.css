@@ -86,7 +86,7 @@ a:visited {
   margin-top: 20px;
 }
 
-/* Check if on mobile. If so, change flex direction to be vertical. */
+/* Check if on mobile. If so, change flex direction to be vertical and width of subdivs to 100%. */
 
 @media (any-pointer: coarse) {
     #main {
