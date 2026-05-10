@@ -46,15 +46,6 @@ a.menu:visited {
   align-content: flex-start;
 }
 
-#content {
-  /*float:left;
-  margin-left: 40px;*/
-  width: 60%;
-  padding: 20px;
-
-}
-
-
 #menu {
   /*position: fixed;
   top: 0;
@@ -69,12 +60,21 @@ a.menu:visited {
   top: 0;
   align-self: flex-start;
   padding-left: 20%;
+  flex: 1;
+
 
   /*background: hsla(86, 39%, 48%, 1);
   background: linear-gradient(90deg, hsla(86, 39%, 48%, 1) 70%, #FFD6E4 100%);*/
 
 }
-  
+
+#content {
+  /*float:left;
+  margin-left: 40px;*/
+  width: 60%;
+  padding: 20px;
+  flex: 2;
+}
 
 #menu ul{
   padding: 20px;
@@ -90,6 +90,7 @@ a.menu:visited {
 
 .hyperblog-list {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .hyperblog-listing {
