@@ -120,11 +120,9 @@ a:visited {
   border: 1px solid whitesmoke;
   border-radius: 10px;
   padding: 5px;
-}
-
-.hyperblog-listing-content {
   position: relative;
 }
+
 
 /* Makes the entire div a clickable link */
 .link-spanner{
@@ -133,7 +131,6 @@ a:visited {
   height:100%;
   top:0;
   left: 0;
-  z-index: 1;
 }
 
 figure {
