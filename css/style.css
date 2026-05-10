@@ -123,6 +123,12 @@ a:visited {
   position: relative;
 }
 
+.hyperblog-listing:hover {
+  color: #2b2a33;
+  background-color: #ffccff;
+  transition: background 0.5s ease-in-out;
+}
+
 
 /* Makes the entire div a clickable link */
 .link-spanner{
@@ -136,6 +142,8 @@ a:visited {
 .hyperblog-listing a {
   z-index: 1;
 }
+
+
 
 figure {
   border: 1px black solid;
