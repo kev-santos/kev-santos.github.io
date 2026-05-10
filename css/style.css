@@ -122,6 +122,10 @@ a:visited {
   padding: 5px;
 }
 
+.hyperblog-listing-content {
+  z-index: 2;
+}
+
 /* Makes the entire div a clickable link */
 .link-spanner{
   position:absolute; 
@@ -129,6 +133,7 @@ a:visited {
   height:100%;
   top:0;
   left: 0;
+  z-index: 1;
 }
 
 figure {
