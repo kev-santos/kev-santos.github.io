@@ -133,6 +133,10 @@ a:visited {
   left: 0;
 }
 
+.hyperblog-listing a {
+  z-index: 1;
+}
+
 figure {
   border: 1px black solid;
   padding: 5px;
