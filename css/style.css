@@ -95,10 +95,12 @@ a:visited {
 
     #menu {
       flex: 1;
+      width: 100%;
     }
 
     #content {
       flex: 2;
+      width: 100%;
     }
 }
 
