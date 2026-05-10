@@ -60,7 +60,6 @@ a:visited {
   top: 0;
   align-self: flex-start;
   padding-left: 20%;
-  flex: 1;
 
 
   /*background: hsla(86, 39%, 48%, 1);
@@ -73,7 +72,6 @@ a:visited {
   margin-left: 40px;*/
   width: 60%;
   padding: 20px;
-  flex: 2;
 }
 
 #menu ul{
@@ -86,6 +84,22 @@ a:visited {
 
 #menu li + li {
   margin-top: 20px;
+}
+
+/* Check if on mobile. If so, change flex direction to be vertical. */
+
+@media (any-pointer: coarse) {
+    #main {
+      flex-direction: column;
+    }
+
+    #menu {
+      flex: 1;
+    }
+
+    #content {
+      flex: 2;
+    }
 }
 
 .hyperblog-list {
