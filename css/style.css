@@ -88,9 +88,14 @@ a.menu:visited {
   margin-top: 20px;
 }
 
+.hyperblog-list {
+  list-style-type: none;
+}
+
 .hyperblog-listing {
   border: 3px solid whitesmoke;
   border-radius: 10px;
+  padding: 5px;
 }
 
 figure {
