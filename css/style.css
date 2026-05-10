@@ -112,6 +112,10 @@ a:visited {
   padding-left: 0;
 }
 
+.hyperblog-list li + li {
+  margin-top: 20px;
+}
+
 .hyperblog-listing {
   border: 1px solid whitesmoke;
   border-radius: 10px;
