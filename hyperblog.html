@@ -12,7 +12,7 @@ So I'll record the good stuff here, tagged and sorted, and now I can close my br
 
 <ul>
   {% for post in site.categories.hyperblog %}
-    <li>
+    <li class="hyperblog-listing">
       <div class="post-excerpt">
         {{ post.excerpt }}
       </div>
@@ -22,6 +22,7 @@ So I'll record the good stuff here, tagged and sorted, and now I can close my br
         {% endfor %}
       </div>
       <details>
+        <summary>more info</summary>
         {{ post.content }} <a href="{{ post.url }}"> (link to post) </a> 
       </details>
       

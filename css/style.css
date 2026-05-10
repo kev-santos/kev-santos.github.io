@@ -43,14 +43,14 @@ a.menu:visited {
   padding: 0px 10px;
   width: 25%;*/
   display: flex;
-  /*justify-content: space-between;*/
+  align-content: flex-start;
 }
 
 #content {
   /*float:left;
   margin-left: 40px;*/
   width: 60%;
-  padding: 15px;
+  padding: 20px;
 
 }
 
@@ -62,10 +62,14 @@ a.menu:visited {
   width: 150px;
   height: 100%;
   min-width: max-content;*/
-  width: 25%;
-
+  width: 17%;
   text-align: right;
-  background-color: rgb(129, 170, 75);
+  background-color: #2b2a33;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  padding-left: 20%;
+
   /*background: hsla(86, 39%, 48%, 1);
   background: linear-gradient(90deg, hsla(86, 39%, 48%, 1) 70%, #FFD6E4 100%);*/
 
@@ -74,12 +78,19 @@ a.menu:visited {
 
 #menu ul{
   padding: 20px;
-  padding-top: 100px;
   list-style-type: none;
+  background-color: rgb(129, 170, 75);
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
 }
 
 #menu li + li {
   margin-top: 20px;
+}
+
+.hyperblog-listing {
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
 }
 
 figure {
