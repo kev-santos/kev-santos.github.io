@@ -97,6 +97,8 @@ a:visited {
       flex: 1;
       width: 100%;
       position: fixed;
+      padding-left: 0;
+      text-align: center;
     }
 
     #content {
