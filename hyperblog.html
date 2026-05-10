@@ -22,10 +22,11 @@ So I'll record the good stuff here, tagged and sorted, and now I can close my br
 
       <div class="hyperblog-listing-content">
         {{ post.content }}
+        <a href="{{ post.url }}"><span class="link-spanner"></span></a>
       </div>
 
       <!-- Make the entire box a clickable link to the post page. -->
-      <a href="{{ post.url }}"><span class="link-spanner"></span></a>
+
     </li>
   {% endfor %}
 </ul>
