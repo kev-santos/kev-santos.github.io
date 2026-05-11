@@ -6,11 +6,6 @@ permalink: /hyperblog-tags
 ---
 # hyperblog posts by tag
 
-{% for tag in site.tags %}
-    <h2>{{ tag }}</h2>
-        {% for post in site.tags.{{ tag }} %}
-            {% if }
-
 <ul  style="list-style-type: none">
     {% for item in page.tags %}
         <li><a href="#{{ item | slugify }}">{{ item }}</a></li>
@@ -34,6 +29,6 @@ permalink: /hyperblog-tags
 
         </li>
 
-    {% endif %}
+    {% endfor %}
 
 {% endfor %}
