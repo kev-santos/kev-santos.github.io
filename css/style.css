@@ -120,16 +120,26 @@ a:visited {
   border: 1px solid whitesmoke;
   border-radius: 10px;
   padding: 5px;
-  position: relative;
-}/*
+}
+
 .hyperblog-listing:hover {
-  
-  background: linear-gradient(90deg, #FFC0CB 50%, #00FFFF 50%);
-  
-}*/
+  background-color: #ffa3ff6d;
+  transition: background 0.5s ease-in-out;
+}
+
+.hyperblog-link-to-post {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+.hyperblog-listing:hover .hyperblog-link-to-post {
+  display: block;
+}
 
 
-/* Makes the entire div a clickable link */
+/* Makes the entire div a clickable link 
 .link-spanner{
   position: absolute; 
   width:50%;
@@ -138,13 +148,8 @@ a:visited {
   left: 0;
   display: none;
   
-}
+}*/
 
-.link-spanner:hover {
-  background-color: #ffa3ff6d;
-  transition: background 0.5s ease-in-out;
-  display: block;
-}
 
 
 

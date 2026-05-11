@@ -14,7 +14,7 @@ So I'll record the good stuff here, tagged and sorted, and now I can close my br
   {% for post in site.categories.hyperblog %}
     <li class="hyperblog-listing">
       <!-- Make half the box a clickable link to the post page. -->
-      <a href="{{ post.url }}"><span class="link-spanner">go to post</span></a>
+      <a href="{{ post.url }}" class="hyperblog-link-to-post">go to post</a>
 
       <div class="tag-list">
         {% for tag in post.tags %}
