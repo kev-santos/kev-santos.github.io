@@ -86,26 +86,6 @@ a:visited {
   margin-top: 20px;
 }
 
-/* Check if on mobile. If so, change flex direction to be vertical and width of subdivs to 100%. */
-
-@media (any-pointer: coarse) {
-    #main {
-      flex-direction: column;
-    }
-
-    #menu {
-      flex: 1;
-      width: 100%;
-      position: static;
-      padding-left: 0;
-      text-align: center;
-    }
-
-    #content {
-      flex: 2;
-      width: 100%;
-    }
-}
 
 .hyperblog-list {
   list-style-type: none;
@@ -133,10 +113,36 @@ a:visited {
   right: 0;
   top: 0;
   display: none;
+  padding: 5px;
 }
 
 .hyperblog-listing:hover .hyperblog-link-to-post {
   display: block;
+}
+
+/* Check if on mobile. If so, change flex direction to be vertical and width of subdivs to 100%. */
+
+@media (any-pointer: coarse) {
+    #main {
+      flex-direction: column;
+    }
+
+    #menu {
+      flex: 1;
+      width: 100%;
+      position: static;
+      padding-left: 0;
+      text-align: center;
+    }
+
+    #content {
+      flex: 2;
+      width: 100%;
+    }
+
+    .hyperblog-link-to-post {
+      display: block;
+    }
 }
 
 
