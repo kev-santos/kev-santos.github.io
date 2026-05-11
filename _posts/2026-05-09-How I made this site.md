@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I made this site
+title: how I made this site
 tags:
   - programming
 ---
@@ -17,4 +17,5 @@ Some considerations, as a beginner with this kind of thing:
 - Struggled for a bit with the sticky sidebar: since the sidebar and main content were in a flex container, this made the sidebar have the same height as the main content. [This Stack Overflow post](https://stackoverflow.com/questions/44446671/my-position-sticky-element-isnt-sticky-when-using-flexbox) helped a lot. Turns out you just need to add `align-self: flex-start` to the sidebar to make the height fit its contents, instead of match the other div. 
 - The sidebar formatting doesn't work well for mobile, so I had to figure out how to alter the css on mobile browsers. [This Stack Overflow post](https://stackoverflow.com/questions/14942081/detect-if-a-browser-in-a-mobile-device-ios-android-phone-tablet-is-used) was helpful; it gives a somewhat hacky way of detecting mobile browsers: `@media (any-pointer: coarse)`. On mobile, I just switch the `flex-direction` from `row` to `column` (and make the divs fit 100% width). 
 - I was never aware of the github web editor until now?? It's so much easier to use when editing files, and all you need to do is hit the `.` key while on a repository :0
+- I made a little heart favicon using https://www.favicon.cc/ :3
 
