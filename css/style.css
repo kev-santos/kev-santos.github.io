@@ -86,7 +86,25 @@ a:visited {
   margin-top: 20px;
 }
 
+/* BLOG STUFF */
+.blog-list {
+  list-style-type: none;
+  padding-left: 0;
+}
 
+.blog-list li + li {
+  margin-top: 20px;
+}
+
+/*.blog-listing {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+}*/
+
+
+/* HYPERBLOG STUFF */
 .hyperblog-list {
   list-style-type: none;
   padding-left: 0;
@@ -119,6 +137,7 @@ a:visited {
 .hyperblog-listing:hover .hyperblog-link-to-post {
   display: block;
 }
+
 
 /* Check if on mobile. If so, change flex direction to be vertical and width of subdivs to 100%. */
 
