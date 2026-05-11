@@ -1,0 +1,28 @@
+---
+layout: page
+title: hyperblog tags
+category: hyperblog
+permalink: /hyperblog-tags
+---
+# hyperblog posts by tag
+
+{% for tag in site.tags %}
+    <h2>{{ tag }}</h2>
+        {% for post in site.tags.{{ tag }} %}
+            {% if }
+
+<ul  style="list-style-type: none">
+    {% for item in page.tags %}
+        <li><a href="#{{ item | slugify }}">{{ item }}</a></li>
+    {% endfor %}
+</ul>
+
+{% for item in page.tags %}
+    <h2>{{ item }}</h2><a name="{{ item | slugify }}"></a>
+    
+
+{% endfor %}
+
+
+
+{% endfor %}
