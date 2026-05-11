@@ -121,13 +121,12 @@ a:visited {
   border-radius: 10px;
   padding: 5px;
   position: relative;
-}
-
+}/*
 .hyperblog-listing:hover {
   
   background: linear-gradient(90deg, #FFC0CB 50%, #00FFFF 50%);
   
-}
+}*/
 
 
 /* Makes the entire div a clickable link */
