@@ -19,10 +19,21 @@ permalink: /hyperblog-tags
 
 {% for item in page.tags %}
     <h2>{{ item }}</h2><a name="{{ item | slugify }}"></a>
-    
 
-{% endfor %}
+    {% for post in site.tags[item] %}
+        <li class="hyperblog-listing">
+            <a href="{{ post.url }}" class="hyperblog-link-to-post">go to post</a>
+            
+            <b> {{ post.title }} </b>
 
+            <div class="hyperblog-listing-content">
+                <details>
+                    {{ post.content }}
+                </details>
+            </div>
 
+        </li>
+
+    {% endfor %}
 
 {% endfor %}
