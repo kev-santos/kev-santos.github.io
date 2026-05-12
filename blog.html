@@ -10,7 +10,7 @@ A more regular blog.
   {% for post in site.categories.blog %}
     <li class="blog-listing">
 
-      <a href="{{ post.url }}" class="blog-listing-post-link"><h3>{{ post.title }} ({{ post.time}})</h3></a>
+      <a href="{{ post.url }}" class="blog-listing-post-link"><h3>{{ post.title }} ({{ post.date | date_to_string}})</h3></a>
 
       <div class="tag-list">
         {% for tag in post.tags %}
